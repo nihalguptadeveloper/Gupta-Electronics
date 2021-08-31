@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Home Page</title> 
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg py-3 navbar-light bg-light">
+
+<!-- Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel">Login to Gupta Electronics</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          </form>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Sign up Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SignupModalLabel">Get your Gupta Electronics Account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+
+            <label for="cinputPassword4" class="cform-label">Confirm Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">GUPTA ELECTRONICS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/aboutus .html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/products.html">Products</a></li>
+                  <li><a class="dropdown-item" href="/Services.html">Services</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Blogs</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Contactus.html">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+              <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Login">Login</button>
+              <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Signup">Signup</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1500x600/?iphone img-thumbnail" class="d-block w-100" alt="...">
+            <div class ="carousel-caption d-block d-md-block">
+            <h2>Welcome to Gupta Electronics</h2>
+            <p>Buying any Latest Smartphone with Good discount</p>
+            <button class="btn btn-primary "><a href="/products.html"></a>Buy Now</button>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1500x600/?computer img-thumbnail" class="d-block w-100" alt="...">
+            <div class = "carousel-caption d-block d-md-block">
+              <h2>Welcome to Gupta Electronics</h2>
+              <p>Buying any Latest Smartphone with Good discount</p>
+              <button class="btn btn-success"><a href="/products.html"></a>Buy Now</button>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1500x600/?ipad img-thumbnail" class="d-block w-100" alt="...">
+            <div class = "carousel-caption d-block d-md-block">
+              <h2>Welcome to Gupta Electronics</h2>
+              <p>Buying any Latest Smartphone with Good discount</p>
+              <button class="btn btn-danger"><a href="/products.html"></a>Buy Now</button>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr>
+      <div class="album py-5 bg-light">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1600x900/?iphone10 img-thumbnail" class="bd-placeholder-img card-img-top" width="100%" height="225">
+    
+                <div class="card-body">
+                  <p class="card-text">Buy iPhone 8 or 8 Plus online with Jio & Get 70% Buyback under Jio iPhone Offer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Checkout</button>
+                    </div>
+                    <small class="text-muted">Latest</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1600x900/?iphone11 img-thumbnail" class="bd-placeholder-img card-img-top" width="100%" height="225">
+    
+                <div class="card-body">
+                  <p class="card-text">Buy iPhone 11 Plus online with Jio & Get 70% Buyback under Jio iPhone Offer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Checkout</button>
+                    </div>
+                    <small class="text-muted">Latest</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://source.unsplash.com/1600x900/?iphone12 img-thumbnail" class="bd-placeholder-img card-img-top" width="100%" height="225">
+    
+                <div class="card-body">
+                  <p class="card-text">Buy iPhone 12 online with Jio & Get 70% Buyback under Jio iPhone Offer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Checkout</button>
+                    </div>
+                    <small class="text-muted">Latest</small>
+                  </div>
+                </div>
+              </div>
+            </div>   
+        </div>
+      </div>
+      
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+      <div class="card">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+          <h5 class="card-title">Free Delievery on iphone & Macos systems</h5>
+          <p class="card-text">With full Customer Supports 24x7 & deliever all over the world</p>
+          <a href="#" class="btn btn-primary">Grab offer now!</a>
+        </div>
+      </div>
+      <hr>
+      <div class="d-grid gap-2">
+        <button class="btn btn-success" type="button"><h2>Get Discount on Latest Smartphones</h2> </button>
+      </div>
+      <hr>
+      <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="https://source.unsplash.com/600x600/?Manager img-thumbnail" alt="" class="bd-placeholder-img rounded-circle" width="150" height="150" >
+        <h2>Business Owner</h2>
+        <p>Mr. Rajat Sharma</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+       <img src="https://source.unsplash.com/600x600/?executive img-thumbnail" alt="" class="bd-placeholder-img rounded-circle" width="150" height="150" >
+        <h2>Manager</h2>
+        <p>Vivek singh</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+      <img src="https://source.unsplash.com/600x600/?businessman img-thumbnail" alt="" class="bd-placeholder-img rounded-circle" width="150" height="150" >
+        <h2>Founder & CEO</h2>
+        <p>Mr. Sunil sharma</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+  <hr>
+  <div class="container-fluid" style="background-color: lightgrey;">
+    <footer class="py-3 my-4 ">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">Gupta Electronics © 2021 Company, Inc</p>
+    </footer>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
